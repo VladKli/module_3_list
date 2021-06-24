@@ -4,6 +4,11 @@
 A = [1, -0.25, 'abs', 555, 7]
 B = ['abs', 1, 7, 6, 33, -29]
 
-C = A + B
+lis = []
+lis.extend(A)
+lis.extend(B)
 
-print(C)
+# C = A + B
+
+print(lis)
+# print(C)
